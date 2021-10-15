@@ -1,7 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+import React from 'react';
+import { Mensagem } from './Mensagem';
+
+function App () {
+  return (
+    <div>
+      <Mensagem />
+    </div>
+  )
+}
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +29,7 @@ function App() {
       </header>
     </div>
   );
-}
+} */
 
 export default App;
+
